@@ -1,3 +1,8 @@
+# Self made testing files
+in.txt
+dec.txt
+out.txt
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
