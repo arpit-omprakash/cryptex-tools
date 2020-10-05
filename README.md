@@ -1,2 +1,2 @@
 # CipherX
-A CLI tool for encrypting and decrypting files using specified ciphers
+A python CLI tool for encrypting and decrypting files using specified ciphers
