@@ -8,17 +8,29 @@ setuptools.setup(
     version="0.0.1",
     author="Arpit Omprakash",
     author_email="omprakasharpit@gmail.com",
+    license='MIT',
     description="A simple package to encrypt and decrypt files.",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="", # Add project url
     packages=setuptools.find_packages(),
     classifiers=[
+        # How mature the project is
+        # 1 - Planning
+        # 2 - Pre-Alpha
+        # 3 - Alpha
+        # 4 - Beta
+        # 5 - Production/Stable
+        # 6 - Mature
+        # 7 - Inactive
+        "Development Status :: 1 - Planning"
+        "Topic :: Cryptography :: Cipher Tools"
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    python_requires='>=3.6',
+    keywords='cryptography cipher codec',
+    python_requires='~=3.6',
 )
 
 ## Notes for versioning:
