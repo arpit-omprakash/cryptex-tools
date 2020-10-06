@@ -1,8 +1,10 @@
-# Self made testing files
+#  Self made Testing and data files
 in.txt
 dec.txt
 out.txt
 token.txt
+testing.bat
+generate_dist.bat
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -44,7 +46,6 @@ pip-log.txt
 pip-delete-this-directory.txt
 
 # Unit test / coverage reports
-testing.bat
 htmlcov/
 .tox/
 .nox/
