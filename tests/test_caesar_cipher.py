@@ -1,5 +1,5 @@
 import pytest
-from cipherx.caesar_cipher import *
+from cipherx.ciphers.caesar_cipher import *
 
 c = CaesarCipher()
 
