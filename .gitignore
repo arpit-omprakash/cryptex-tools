@@ -2,6 +2,7 @@
 in.txt
 dec.txt
 out.txt
+token.txt
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
