@@ -23,27 +23,27 @@ def parsing():
     parser = argparse.ArgumentParser(prog='cipherx',
                                     formatter_class=argparse.RawDescriptionHelpFormatter,
                                     description=doc_string)
-    parser.add_argument('-cipher',
+    parser.add_argument('-cipher', '-c',
                         default='1',
                         type=int,
                         choices=range(1,3),
                         help='Cipher to use for encryption or decryption (default = 1)')
-    parser.add_argument('-conversion',
-                        default='encrypt',
-                        type=str,
-                        choices=['encrypt', 'decrypt'],
-                        help='Specify whether to encrypt or decrypt said file (default = encrypt)')
-    parser.add_argument('-shift',
+    parser.add_argument('-decrypt', '-d',
+                        action='store_true',
+                        help='Turn this flag on to enter decrypt mode')
+    parser.add_argument('-shift', '-s',
                         default=3,
                         type=int,
                         choices=range(1, 37),
                         help='The shift for Caesar Cipher, can range from 1 to 36 (default = 3)')
     parser.add_argument('in_file',
                         type=argparse.FileType('r', encoding='UTF-8'),
-                        help='Path to input file', metavar='I')
+                        help='Path to input file',
+                        metavar='I')
     parser.add_argument('out_file',
                         type=argparse.FileType('w', encoding='UTF-8'),
-                        help='Path to output file (file is created if not existing)', metavar='O')
+                        help='Path to output file (file is created if not existing)',
+                        metavar='O')
     return parser.parse_args()
 
 
@@ -74,10 +74,10 @@ def apply_caesar_cipher(shft):
     """
     from cipherx.ciphers.caesar_cipher import CaesarCipher
     c = CaesarCipher(shft)
-    if args.conversion == 'encrypt':
-        apply_cipher(c.encrypt)
-    else:
+    if args.decrypt:
         apply_cipher(c.decrypt)
+    else:
+        apply_cipher(c.encrypt)
 
 # Program logic
 if __name__ == '__main__':
