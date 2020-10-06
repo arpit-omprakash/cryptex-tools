@@ -1,8 +1,9 @@
 # CipherX
 *cipherx* is a CLI tool and python library that provides solutions to encrypting and decrypting files using various ciphers.
 
-The library is compatible with Python 3.6 and above, and does not depend on external packages (uses only the Python standard library).
-
+The library is compatible with Python 3.6 and above, and does not depend on external packages (uses only the Python standard library).  
+|||
+|-|-|
 |Author   | Arpit "aceking" Omprakash             |
 |License  | MIT License                           |
 |Homepage | https://github.com/aceking007/CipherX |
