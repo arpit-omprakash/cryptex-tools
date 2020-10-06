@@ -52,6 +52,15 @@ The script takes two positional arguments:
 | -s    | -shift  | Integer between 1 and 36 | 3 | The shift for Caesar Cipher |
 | -d    | -decrypt| - | - | Turn this flag on to enable decryption |
 
+**Cipher Table**
+
+The following table indicates the parameter for the `cipher` argument above and the corresponding cipher that is invoked:
+
+| Parameter | Cipher Used |
+|-----------|-------------|
+| 1 | Caesar Cipher|
+| 2 | ROT 13 |
+
 **An example**  
 The following code uses the `Caesar Cipher` with a shift value of `10` to `decrypt` text from the file `in.txt` and store it in the output file named `out.txt` :
 
