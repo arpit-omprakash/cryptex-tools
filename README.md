@@ -58,3 +58,13 @@ The following code uses the `Caesar Cipher` with a shift value of `10` to `decry
 ```
 python -m cipherx in.txt out.txt -d -c 1 -s 10
 ```
+
+## Using submodules
+
+The package ships with different submodules that one can use for their own projects or codes. The submodules have code for the different ciphers implemented. Here is the partial package structure showing all the sub-packages and submodules that you can use in your own codes:
+
+```
+cipherx/
+  ciphers/
+    caesar_cipher.py
+```
