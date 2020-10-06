@@ -15,7 +15,7 @@ The following ciphers are currently supported:
 2. ROT 13 Cipher
 
 ## Installing
-
+<!--
 The easiest way to install the library is to execute (possibly in a virtualenv) the command:  
 
 ```
@@ -23,8 +23,11 @@ pip install cipherx
 ```
 
 (note that you need network access to do it this way; if you do not have the *pip* tool installed - see: https://pip.pypa.io/en/latest/installing.html)
+-->
 
-Alternatively, you can [download]() the library source archive, unpack it, `cd` to the unpacked directory and execute the following command:
+Currently, the software is in its testing phase and has minimal features. The current version on GitHub is v0.0.1. A PyPi package will be added when the software is officially ready for deployment.
+
+You can [download](https://github.com/aceking007/CipherX) the source code as zip, unpack it, `cd` to the unpacked directory and execute the following command:
 
 ```
 python setup.py install
