@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="cipherx", # Name of the package
-    version="0.0.1",
+    version="0.1.0",
     author="Arpit Omprakash",
     author_email="omprakasharpit@gmail.com",
     license='MIT',
@@ -15,15 +15,6 @@ setuptools.setup(
     url="", # Add project url
     packages=setuptools.find_packages(),
     classifiers=[
-        # How mature the project is
-        # 1 - Planning
-        # 2 - Pre-Alpha
-        # 3 - Alpha
-        # 4 - Beta
-        # 5 - Production/Stable
-        # 6 - Mature
-        # 7 - Inactive
-        "Development Status :: 1 - Planning"
         "Topic :: Cryptography :: Cipher Tools"
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
