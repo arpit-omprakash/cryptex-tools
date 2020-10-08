@@ -25,12 +25,18 @@ pip install cipherx
 (note that you need network access to do it this way; if you do not have the *pip* tool installed - see: https://pip.pypa.io/en/latest/installing.html)
 -->
 
-Currently, the software is in its testing phase and has minimal features. The current version on GitHub is v0.0.1. A PyPi package will be added when the software is officially ready for deployment.
+Currently, the software is in its testing phase and has minimal features. The current version on GitHub is v0.1.0  
 
 You can [download](https://github.com/aceking007/CipherX) the source code as zip, unpack it, `cd` to the unpacked directory and execute the following command:
 
 ```
 python setup.py install
+```
+
+Alternatively, you can download the tar-ball from the [GitHub release](https://github.com/aceking007/CipherX/releases/), `cd` to the directory of the tar-ball, and use the pip install command to install the software:
+
+```
+pip install cipherx-0.1.0.tar.gz
 ```
 
 (you may need to have administrator privileges and/or network access, especially if you are executing it *not* in a *virtualenv*).
