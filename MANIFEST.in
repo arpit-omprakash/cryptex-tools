@@ -1,2 +1,5 @@
 # Include the license file
 include LICENSE
+
+# Exclude testing from the finished packages
+exclude tests/*
