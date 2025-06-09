@@ -1,0 +1,5 @@
+build==1.2.2.post1
+click==8.2.1
+colorama==0.4.6
+packaging==25.0
+pyproject_hooks==1.2.0
