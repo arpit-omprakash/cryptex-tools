@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cryptex_tools"
+version = "0.1.1"
+description = "An educational toolkit for classic ciphers and cryptanalysis"
+authors = [
+    { name="Arpit Omprakash", email="omprakasharpit@gmail.com" }
+]
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.7"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Education",
+    "Programming Language :: Python :: 3",
+    "Topic :: Security :: Cryptography"
+]
+dependencies = [
+    "click>=8.0"
+]
+
+[project.urls]
+Homepage = "https://github.com/arpit-omprakash/cryptex-tools"
+
+[project.scripts]
+cryptex_tools = "cryptex_tools.cli.main:cli"
+
+[tool.setuptools.packages.find]
+where = ["src"]

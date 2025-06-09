@@ -1,5 +1,11 @@
 # Include the license file
 include LICENSE
 
+# Include README file
+include README.md
+
+# Include default keywordlist file(s)
+recursive-include src/cryptex_tools/cryptanalysis *.txt
+
 # Exclude testing from the finished packages
 exclude tests/*
