@@ -5,6 +5,7 @@ out.txt
 token.txt
 testing.bat
 generate_dist.bat
+config.txt
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
